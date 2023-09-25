@@ -1,8 +1,5 @@
-site_name: Docs from Dries
 site_description: This is a test site
 site_author: Dries
-site_url: https://driesdekort.github.io/
-
 nav: 
   - Home: index.md
   - About: about.md
