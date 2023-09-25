@@ -1,0 +1,37 @@
+site_name: Docs from Dries
+site_description: This is a test site
+site_author: Dries
+
+nav: 
+  - Home: index.md
+  - About: about.md
+  - Contact: contact.md
+  - GitHub: test.md
+theme:
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - content.code.annotate 
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - social:
+      enabled: true
+  - search
+  - termynal:
+      prompt_literal_start:
+        - "$"
+        - ">"
